@@ -1,0 +1,157 @@
+.left{
+	float:left;	
+}
+
+#header a{
+	text-decoration:none;
+	color:#404040;
+	font-family: 'Hiragino Kaku Gothic ProN', Verdana, 'Lucida Sans Regular', Verdana, Sans-serif;
+	font-size:12px;
+	letter-spacing: 1px;
+}
+
+#header h1{
+	outline:none;
+	color:#404040;
+	height: 70px;
+	width: 190px;
+	padding: 10px;
+	line-height:0px;
+}
+
+#header h1 a{
+    line-height:0px;
+    font-size: 32px;
+    display: block;
+    margin-top: 20px;
+}
+
+#header #links{
+	height: 70px;
+	width: 190px;
+	padding: 10px;
+}
+
+#header #captions{
+	height: 70px;
+	width: 230px;
+	padding: 10px;
+}
+
+#header #links a{
+	color:#aaaaaa;
+}
+
+#header #links a:hover{
+	color:#404040;
+}
+
+#content{
+	clear:both;
+	margin:8px;	
+}
+
+#images img{
+	display:none;	
+}
+
+.project-image{
+	width:290px;
+	height:230px;
+	overflow:hidden;	
+}
+
+.project{
+	padding: 0 10px 0 0;
+	cursor: pointer;
+	margin: 0 0 10px 0;	
+}
+
+.project p{
+	margin: 10px 0 15px 0;
+	padding:0;
+}
+
+.project a, a:hover{
+	text-decoration:none !important;
+	color:inherit !important;	
+}
+
+.darkgrey{
+	color:#707070;
+}
+
+.no-image{
+	color:red;
+	font-weight:bold;
+	display:block;
+	transform:rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
+	-ms-transform:rotate(-25deg);
+	-moz-transform:rotate(-25deg);
+	font-size:28px;
+	top: 65px;
+	position: relative;
+	left: 60px;
+		
+}
+
+#links .active{
+	color:#404040 !important;	
+}
+
+.none{
+	display:none;	
+}
+
+.hover{
+	cursor:pointer;	
+}
+
+#links .control{
+	color:#707070;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: 'Hiragino Kaku Gothic ProN', Verdana, 'Lucida Sans Regular', Verdana, Sans-serif;
+}
+
+#links .control:hover{
+	color:#404040;	
+}
+
+#project-name, #image-name{
+	color:#404040;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: 'Hiragino Kaku Gothic ProN', Verdana, 'Lucida Sans Regular', Verdana, Sans-serif;
+}
+
+.view-image{
+	cursor:pointer;	
+}
+
+#info-left-row{
+	display: table-cell;
+	width: 200px;
+	min-width: 200px;
+	vertical-align: top;
+	text-decoration:none;
+	color:#707070;
+}
+
+#info-left-row a{
+	color:#aaaaaa;	
+}
+
+#info-right-row{
+	vertical-align: top;
+	display: table-cell;
+	width: 500px;
+	padding: 0 10px 0 0;
+	min-width: 350px;
+	color: #404040;
+}
+
+#info-left-row .active{
+	color:#404040 !important;
+}
